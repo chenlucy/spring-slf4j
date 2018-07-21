@@ -1,0 +1,63 @@
+2018-07-04 23:31:48.835  INFO 5620 --- [main] com.example.demo.TestlogApplication      : Starting TestlogApplication on CSTVZ7UIXZNYEVI with PID 5620 (E:\Projects\testlog\target\classes started by Administrator in E:\Projects\testlog)
+2018-07-04 23:31:48.840  INFO 5620 --- [main] com.example.demo.TestlogApplication      : No active profile set, falling back to default profiles: default
+2018-07-04 23:31:48.942  INFO 5620 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58134517: startup date [Wed Jul 04 23:31:48 CST 2018]; root of context hierarchy
+2018-07-04 23:31:51.549  INFO 5620 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-04 23:31:51.568  INFO 5620 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-04 23:31:51.570  INFO 5620 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-04 23:31:51.800  INFO 5620 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-04 23:31:51.800  INFO 5620 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2862 ms
+2018-07-04 23:31:52.041  INFO 5620 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-04 23:31:52.046  INFO 5620 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-04 23:31:52.047  INFO 5620 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-04 23:31:52.047  INFO 5620 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-04 23:31:52.048  INFO 5620 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-04 23:31:52.460  INFO 5620 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58134517: startup date [Wed Jul 04 23:31:48 CST 2018]; root of context hierarchy
+2018-07-04 23:31:52.566  INFO 5620 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test]}" onto public java.lang.String com.example.demo.controller.UserController.test()
+2018-07-04 23:31:52.571  INFO 5620 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-04 23:31:52.572  INFO 5620 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-04 23:31:52.615  INFO 5620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 23:31:52.615  INFO 5620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 23:31:52.639  INFO 5620 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-04 23:31:52.673  INFO 5620 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 23:31:52.906  INFO 5620 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-04 23:31:52.985  INFO 5620 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-04 23:31:52.991  INFO 5620 --- [main] com.example.demo.TestlogApplication      : Started TestlogApplication in 4.711 seconds (JVM running for 5.428)
+2018-07-04 23:32:04.302  INFO 5620 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-04 23:32:04.302  INFO 5620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-04 23:32:04.337  INFO 5620 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 34 ms
+2018-07-04 23:32:04.377  INFO 5620 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : info
+2018-07-04 23:32:04.378 ERROR 5620 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : error
+2018-07-04 23:32:04.378  WARN 5620 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : warn
+2018-07-04 23:32:45.947  INFO 5620 --- [http-nio-8080-exec-3] c.e.demo.controller.UserController       : info
+2018-07-04 23:32:45.948 ERROR 5620 --- [http-nio-8080-exec-3] c.e.demo.controller.UserController       : error
+2018-07-04 23:32:45.948  WARN 5620 --- [http-nio-8080-exec-3] c.e.demo.controller.UserController       : warn
+2018-07-04 23:36:12.117  INFO 6392 --- [main] com.example.demo.TestlogApplication      : Starting TestlogApplication on CSTVZ7UIXZNYEVI with PID 6392 (E:\Projects\testlog\target\classes started by Administrator in E:\Projects\testlog)
+2018-07-04 23:36:12.121  INFO 6392 --- [main] com.example.demo.TestlogApplication      : No active profile set, falling back to default profiles: default
+2018-07-04 23:36:12.213  INFO 6392 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58134517: startup date [Wed Jul 04 23:36:12 CST 2018]; root of context hierarchy
+2018-07-04 23:36:14.765  INFO 6392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8080 (http)
+2018-07-04 23:36:14.786  INFO 6392 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-07-04 23:36:14.788  INFO 6392 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.23
+2018-07-04 23:36:15.204  INFO 6392 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-07-04 23:36:15.205  INFO 6392 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2997 ms
+2018-07-04 23:36:15.606  INFO 6392 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2018-07-04 23:36:15.655  INFO 6392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-07-04 23:36:15.656  INFO 6392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-07-04 23:36:15.657  INFO 6392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-07-04 23:36:15.657  INFO 6392 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-07-04 23:36:16.214  INFO 6392 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@58134517: startup date [Wed Jul 04 23:36:12 CST 2018]; root of context hierarchy
+2018-07-04 23:36:16.316  INFO 6392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/test]}" onto public java.lang.String com.example.demo.controller.UserController.test()
+2018-07-04 23:36:16.321  INFO 6392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-04 23:36:16.322  INFO 6392 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-04 23:36:16.361  INFO 6392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 23:36:16.362  INFO 6392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 23:36:16.382  INFO 6392 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : Detected @ExceptionHandler methods in globalExceptionHandler
+2018-07-04 23:36:16.414  INFO 6392 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-04 23:36:16.648  INFO 6392 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-07-04 23:36:16.731  INFO 6392 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8080 (http)
+2018-07-04 23:36:16.738  INFO 6392 --- [main] com.example.demo.TestlogApplication      : Started TestlogApplication in 5.131 seconds (JVM running for 5.895)
+2018-07-04 23:36:26.624  INFO 6392 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-07-04 23:36:26.625  INFO 6392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-07-04 23:36:26.655  INFO 6392 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2018-07-04 23:36:26.683  INFO 6392 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : info
+2018-07-04 23:36:26.684 ERROR 6392 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : error
+2018-07-04 23:36:26.684  WARN 6392 --- [http-nio-8080-exec-1] c.e.demo.controller.UserController       : warn
